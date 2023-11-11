@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #353535;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+header > h1 {
+ font-family: Nabla;
+ font-size: 80px;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.description_container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 5px;
+    flex-direction: column;
+    width: 33%;
+}
+
+hr {
+    margin: 50px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 300; 
+}
+
+li {
+    font-family: Montserrat;
+    font-weight: 300; 
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(115, 24, 24);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#name {
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .description_container {
+        margin-bottom: 5px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    /* Flexbox adjustments for desktop view */
+    .description_container{
+        display: flex;
+        flex-direction: row; /* Adjusted for desktop view */
+        align-items: center;
+        text-align: center;
+    }
+
+    .description p {
+        margin-top: 2px; /* Space between the feature titles and descriptions */
+    }
+}
