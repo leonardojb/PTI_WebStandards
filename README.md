@@ -6,6 +6,7 @@ Tecnologias Utilizadas
 HTML5: Utilizado para estruturar a página web.
 CSS3: Responsável pelo design e estilo da página.
 Google Fonts: Incorporação da fonte "Montserrat" e "Nabla" para uma aparência mais elegante.
+
 Soluções Aplicadas
 Design Responsivo
 O projeto foi desenvolvido com um design responsivo para garantir uma experiência consistente em dispositivos de diferentes tamanhos. Através de media queries, o layout se ajusta automaticamente para proporcionar uma visualização ideal em desktops, tablets e smartphones.
